@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide} from 'swiper/react'
 import "swiper/css"
 import { useRef, useState } from 'react'
-import downloadIcon from "../assets/download.svg"
+import downloadIcon from "../assets/download.png"
 import { useNavigate } from 'react-router-dom'
 import JSZip from 'jszip'
 import saveAs from "file-saver"
