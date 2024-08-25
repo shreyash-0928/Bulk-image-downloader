@@ -1,4 +1,4 @@
-import downloadIcon from "../../assets/download.svg"
+import downloadIcon from "../../assets/download.png"
 import InputAndSearchButton from '../../Components/InputAndSearchButton'
 import arrowLeft from "../../assets/arrow-left.svg"
 import searchingSvg from "../../assets/searching.svg"
