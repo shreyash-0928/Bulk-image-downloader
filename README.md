@@ -25,22 +25,20 @@ Users are able to:
 
 ### Screenshot
 
-![screenshot of the collection pack](/src/assets/proof.PNG)
-![screenshot of collection pack preview](/src/assets/Screenshot%20(196).png)
+![screenshot of the collection pack](/src/assets/screenshot1.png)
+![screenshot of collection pack preview](/src/assets/screenshot2.png)
+![screenshot of collection pack preview](/src/assets/screenshot3.png)
 
 ### Link
 
-- Live Site URL: [Bulk-downloader](https://bulk-downloader.netlify.app/)
+- Live Site URL: [Bulk-downloader](https://bulkimagedowloader.netlify.app/)
 
 
 ### Built with
 
-- CSS
-- Mobile-first workflow
 - ReactJS
 - Unsplash API
 
-- Design : invision Studio
-## Author
-- Twitter - [@daviddixx](https://www.twitter.com/dixx_david)
 
+## Author
+- LinkedIn - [@shreyashvidhate](https://www.linkedin.com/in/shreyashvidhate/)
