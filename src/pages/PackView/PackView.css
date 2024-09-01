@@ -1,156 +1,158 @@
-.bg .header {
-  background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem 2rem;
-  position: fixed;
-  top: 0;
-  left: 0;
+.bg .header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    position: fixed;
+    top:0;
+    left:0;
 }
 
-main.pack-view {
-  margin: auto;
+main.pack-view{
+    margin: auto;
 }
 
-.bg {
-  min-height: 100vh;
-  padding: 0 0 2rem 0;
+.bg{
+    min-height: 100vh;
+    padding: 0 0 2rem 0;
 }
 
-.header > img {
-  margin: 0 1rem 0 0;
-  cursor: pointer;
+.header > img{
+    margin: 0 1rem 0 0;
+    cursor: pointer;
 }
 
-.pack-view .pack-name {
-  font-size: 2rem;
-  padding: 6rem 0 0 0;
-  margin: 2rem 0 2rem;
-  font-family: clashmedium;
-  letter-spacing: 0.2px;
+.pack-view .pack-name{
+    font-size: 2rem;
+    padding: 6rem 0 0 0;
+    margin: 2rem 0 2rem;
+    font-family: clashmedium;
+    letter-spacing: .2px;
 }
 
-.pack-name .pack-info {
-  font-size: 1.2rem;
-  color: rgba(102, 48, 116, 0.63);
-  font-family: montserrat;
+.pack-name .pack-info{
+    font-size: 1.2rem;
+    color:rgba(102, 48, 116, 0.63);
+    font-family: montserrat;
 }
 
-.pack-view .pack-images {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
-  align-items: center;
-  column-gap: 2rem;
-  justify-items: center;
-  justify-content: space-between;
-}
-
-.pack-images > div {
-  border: solid;
-  width: 15rem;
-  max-width: 20rem;
-  height: 20rem;
-  margin: 0 0 2rem 0;
-  overflow: hidden;
-  border-radius: 1rem;
-  -webkit-border-radius: 1rem;
-  -moz-border-radius: 1rem;
-  -ms-border-radius: 1rem;
-  -o-border-radius: 1rem;
-}
-
-.pack-image-container img {
-  object-fit: cover;
-  min-height: 100%;
-  transition: ease 0.2s;
-  -webkit-transition: ease 0.2s;
-  -moz-transition: ease 0.2s;
-  -ms-transition: ease 0.2s;
-  -o-transition: ease 0.2s;
-}
-
-.pack-view .download-button {
-  margin: 2rem auto;
-}
-
-.download-indicator {
-  display: none;
-  border: 1px solid rgba(0, 128, 0, 0.26);
-  position: fixed;
-  top: 10rem;
-  left: 50%;
-  transform: translate(-50%, 0);
-  width: 90vw;
-  max-width: 25rem;
-  padding: 1.2rem 1rem;
-  margin: auto;
-  background-color: rgb(211, 255, 211);
-  box-shadow: 0 0 0.5rem rgba(11, 212, 55, 0.39);
-  border-radius: 0.5rem;
-  -webkit-border-radius: 0.5rem;
-  -moz-border-radius: 0.5rem;
-  -ms-border-radius: 0.5rem;
-  -o-border-radius: 0.5rem;
-  -webkit-transform: translate(-50%, 0);
-  -moz-transform: translate(-50%, 0);
-  -ms-transform: translate(-50%, 0);
-  -o-transform: translate(-50%, 0);
-}
-
-.download-indicator.hidden {
-  display: block;
-  animation: disappear 4s ease-in-out forwards;
-  -webkit-animation: disappear 4s ease-in-out forwards;
-}
-
-.download-indicator p {
-  font-size: 1.5rem;
-  font-family: montserrat;
-  text-align: center;
-  color: rgb(9, 105, 9);
-}
-
-@media screen and (min-width: 850px) {
-  .pack-view .pack-images {
+.pack-view .pack-images{
     display: grid;
-    grid-template-columns: repeat(4, auto);
-  }
-
-  .pack-images > div {
-    width: 18rem;
-    height: 25rem;
-  }
+    grid-template-columns: repeat(
+        auto-fit, minmax(14rem, 1fr)
+    );
+    align-items: center;
+    column-gap: 2rem;
+    justify-items: center;
+    justify-content: space-between;
 }
 
-@media screen and (min-width: 1200px) {
-  .pack-view .pack-images {
-    display: grid;
-    grid-template-columns: repeat(5, auto);
-  }
+.pack-images > div{
+    border: solid;
+    width: 15rem;
+    max-width: 20rem;
+    height:20rem;
+    margin: 0 0 2rem 0;
+    overflow: hidden;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
 }
 
-button:hover {
-  cursor: pointer;
+.pack-image-container img{
+    object-fit: cover;
+    min-height: 100%;
+    transition: ease .2s;
+    -webkit-transition: ease .2s;
+    -moz-transition: ease .2s;
+    -ms-transition: ease .2s;
+    -o-transition: ease .2s;
 }
 
-.pack-images div img:hover {
-  cursor: pointer;
-  transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
+.pack-view .download-button{
+    margin:2rem auto;
+}
+
+.download-indicator{
+    display: none;
+    border: 1px solid rgba(0, 128, 0, 0.26);
+    position: fixed;
+    top:10rem;
+    left:50%;
+    transform: translate(-50%, 0);
+    width:90vw;
+    max-width:25rem;
+    padding:1.2rem 1rem;
+    margin: auto;
+    background-color: rgb(211, 255, 211);
+    box-shadow: 0 0 .5rem rgba(11, 212, 55, 0.39);
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+}
+
+.download-indicator.hidden{
+    display: block;
+    animation: disappear 4s ease-in-out forwards;
+    -webkit-animation: disappear 4s ease-in-out forwards;
+}
+
+.download-indicator p{
+    font-size: 1.5rem;
+    font-family: montserrat;
+    text-align: center;
+    color:rgb(9, 105, 9);
+}
+
+@media screen and (min-width:850px) {
+    .pack-view .pack-images{
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+    }
+
+    .pack-images > div{
+        width: 18rem;
+        height: 25rem;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .pack-view .pack-images{
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+    }
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.pack-images div img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);    
 }
 
 @keyframes disappear {
-  to {
-    transform: translate(-50%, -10rem);
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transform: translate(-50%, -10rem);
-    -moz-transform: translate(-50%, -10rem);
-    -ms-transform: translate(-50%, -10rem);
-    -o-transform: translate(-50%, -10rem);
-  }
+    to{
+        transform: translate(-50%, -10rem);
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transform: translate(-50%, -10rem);
+        -moz-transform: translate(-50%, -10rem);
+        -ms-transform: translate(-50%, -10rem);
+        -o-transform: translate(-50%, -10rem);
+}
 }

@@ -1,12 +1,14 @@
-import downloadIcon from "../assets/download.svg";
+import downloadIcon from "../assets/download.svg"
 
-function DownloadButton({ title, onClick, currentCollectionPack }) {
+function DownloadButton({title, onClick, currentCollectionPack}) {
   return (
-    <button onClick={onClick} className="download-button">
-      <img src={downloadIcon} alt="download icon" />
-      {title}
+    <button 
+    onClick={onClick}
+    className="download-button">
+    <img src={downloadIcon} alt="download icon" />
+     {title}
     </button>
-  );
+  )
 }
 
-export default DownloadButton;
+export default DownloadButton

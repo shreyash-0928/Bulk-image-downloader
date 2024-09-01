@@ -7,7 +7,7 @@
   - [Author](#author)
 
 ## Overview
-Bulk Image Downloader is a streamlined web app designed to simplify mass image downloading. It enables users to effortlessly download "image packs" containing anywhere from 10 to 1,000 images with just a few clicks, saving time and effort when managing large image collections.
+Bulk image downloader is a web application that allows you to easily download images in "collection packs", collection packs may contain 10, 50 or even 1000 images and bulk image downloader helps you download the images in the pack without stress
 
 ### Features
 
@@ -35,9 +35,12 @@ Users are able to:
 
 ### Built with
 
+- CSS
+- Mobile-first workflow
 - ReactJS
 - Unsplash API
 
-
+- Design : invision Studio
 ## Author
-- LinkedIn - [@shreyashvidhate](https://www.linkedin.com/in/shreyashvidhate)
+- Twitter - [@daviddixx](https://www.twitter.com/dixx_david)
+
