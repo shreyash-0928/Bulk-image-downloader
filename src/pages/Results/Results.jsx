@@ -1,7 +1,6 @@
 import InputAndSearchButton from "../../Components/InputAndSearchButton";
-import styles from "./Results.css";
 import BackToTop from "../../Components/BackToTop";
-import searchingSvg from "../../assets/searching.svg";
+import searchingSvg from "../../assets/fonts/Searching.svg";
 import { useState } from "react";
 import { useParams } from "react-router-dom";
 import { useEffect } from "react";
