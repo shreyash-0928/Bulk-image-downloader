@@ -1,9 +1,7 @@
-import downloadIcon from "../../assets/download.png";
+import downloadIcon from "../../assets/download.svg";
 import InputAndSearchButton from "../../Components/InputAndSearchButton";
 import arrowLeft from "../../assets/arrow-left.svg";
 import searchingSvg from "../../assets/searching.svg";
-import styles from "../PackView/PackView.css";
-import result from "../Results/Results.css";
 import ImagePreviewer from "../../Components/ImagePreview";
 import { useNavigate, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
