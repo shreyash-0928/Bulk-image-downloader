@@ -31,7 +31,7 @@ Users are able to:
 
 ### Link
 
-- Live Site URL: [Bulk-Image-Downloader](https://bulkimagedowloader.netlify.app/)
+- Live Site URL: [Bulk-Image-Dwownloader](https://bulkimagedowloader.netlify.app/)
 
 
 ### Built with
